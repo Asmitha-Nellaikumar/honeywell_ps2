@@ -1,20 +1,19 @@
 # Multivariate\_anomaly\_detection
 
 Industrial Process Anomaly Detection & Recommendation System
-🚨 Multivariate Time Series Anomaly Detection with Graph Autoencoder
+Multivariate Time Series Anomaly Detection with Graph Autoencoder
 
 A next-generation anomaly detection system for industrial or multivariate time-series processes. This system detects abnormal patterns across correlated variables and provides actionable insights through feature attribution and anomaly scoring.
 
 ---
 
-## 🚀 The Idea: Beyond Single-Feature Detection
+## The Idea: Beyond Single-Feature Detection
 
 Traditional anomaly detection evaluates each variable individually, often missing complex inter-variable relationships.
 Our system uses a **Graph Autoencoder** to model correlations between features as edges, capturing which interactions contribute most to anomalies.
 
 Instead of relying solely on thresholds, the model evaluates relationships across all variables, providing **accurate anomaly scoring (0–100%)** and highlighting the top contributing features.
 
-\[Link to Your Demo Video Here]
 
 ---
 
@@ -110,7 +109,3 @@ streamlit run <dashboard-file>
 ```
 
 Opens the dashboard for real-time anomaly detection with anomaly score, top contributing features, and recommended actions.
-
----
-
-Would you also like me to make this **look stylish on GitHub** (with emojis, badges, and section dividers) so it feels like a polished open-source project?
